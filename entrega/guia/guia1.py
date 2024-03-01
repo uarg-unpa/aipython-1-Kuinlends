@@ -1,0 +1,13 @@
+print ("Las máquinas me sorprenden con mucha frecuencia")
+print ()
+print ("tus propios mensajes")
+print(23)
+print("23")
+print("Una computadora puede ser llamada ",'"inteligente"',"si logra engañar a una persona haciéndole creer que es un humano.")
+print("Una computadora puede ser llamada \"inteligente\" si logra engañar a una persona haciéndole creer que es un humano.")
+print ("Valeria", "Centurión", 21)
+print ("Valeria", "Centurion",21, sep="_")
+print ("Calle","número","código", sep="\t")
+print ("\n","Calle","\n","número","\n","código")
+print("Feliz","\n","Primavera","\n","\t","2024", sep="\t")
+
