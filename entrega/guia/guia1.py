@@ -1,3 +1,6 @@
+from sympy import false
+
+
 print ("Las máquinas me sorprenden con mucha frecuencia")
 print ()
 print ("tus propios mensajes")
@@ -9,5 +12,69 @@ print ("Valeria", "Centurión", 21)
 print ("Valeria", "Centurion",21, sep="_")
 print ("Calle","número","código", sep="\t")
 print ("\n","Calle","\n","número","\n","código")
-print("Feliz","\n","Primavera","\n","\t","2024", sep="\t")
+print ("Feliz","\n","Primavera","\n","\t","2024", sep="\t")
+print ("Solo podemos ver poco del futuro", end=", ")
+print ("pero lo suficiente para darnos cuenta de que hay mucho que hacer")
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
+nombre = "Valeria"
+apellido = "Centurión"
+edad = 21
+altura = 1.5
+num_vuelo = 2345
+temp_ambiente = 18
+end_game = "end"
+par = false
+nom = str(input("Ingrese su nombre: "))
+apell = str(input("Ingrese su apellido: "))
+ed = int(input("Ingrese su edad"))
+print("Nombre ", nom, " apellido ", apell, " edad: ", ed)
+num1 = int(input("ingrese un numero: "))
+num2 = int(input("ingrese otro numero: "))
+print("suma ", num1 + num2)
+print("resta ", num1 - num2)
+print("producto ", num1*num2)
+print("potencia ", num1**num2)
+print("resto ", num1%num2)
+num3 = int(input("ingrese un numero: "))
+num4 = float(input("ingrese otro numero decimal: "))
+print("suma ", num1 + num2)
+print("resta ", num1 - num2)
+print("producto ", num1*num2)
+print("potencia ", num1**num2)
+print("resto ", num1%num2)
+base = float(input("Ingrese la base del rectángulo"))
+altura = float(input("Ingrese la altura del rectángulo"))
+print("área del rectángulo: ", base * altura)
+print("perímetro del rectángulo: ", 2*(base + altura))
+radio = float(input("ingresa el radio del circulo: "))
+area = 3.1416 * radio
+print ("la circunferencia es: ", area)
 
+peso = float(input("ingrese su peso(kg)"))
+estatura = float(input("ingrese su estatura(en metros)"))
+imc = peso / (estatura**2)
+print ("Tu indice de masa corporal es: <", imc, ">")
+
+grados = int(input("Ingrese un numero (grados celsius)"))
+gradosFar = (1.8 * grados) + 32
+print ("Los grados celsius: ", grados, " fueron convertidos a Fahrenheit: ", gradosFar)
+
+h_trabajadas = float(input("Ingrese el número de horas trabajadas"))
+costo_hora = float(input("Ingrese el costo por hora"))
+print("El sueldo correspondiente es: ", h_trabajadas * costo_hora)
+
+
+cant_invertida = float(input("Ingrese la cantidad a invertir"))
+int_anual = float(input("Ingresar interés anual"))
+anios = int(input("Ingrese el número de años: "))
+int_decimal = int_anual / 100
+cap_obtenido = cant_invertida * (1 + int_decimal) ** anios
+
+print ("El capital obtenido es: ", cap_obtenido)
