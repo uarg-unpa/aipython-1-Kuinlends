@@ -31,7 +31,7 @@ num_vuelo = 2345
 temp_ambiente = 18
 end_game = "end"
 par = false
-nom = str(input("Ingrese su nombre: "))
+"""nom = str(input("Ingrese su nombre: "))
 apell = str(input("Ingrese su apellido: "))
 ed = int(input("Ingrese su edad"))
 print("Nombre ", nom, " apellido ", apell, " edad: ", ed)
@@ -49,10 +49,12 @@ print("resta ", num1 - num2)
 print("producto ", num1*num2)
 print("potencia ", num1**num2)
 print("resto ", num1%num2)
+
 base = float(input("Ingrese la base del rectángulo"))
 altura = float(input("Ingrese la altura del rectángulo"))
 print("área del rectángulo: ", base * altura)
 print("perímetro del rectángulo: ", 2*(base + altura))
+
 radio = float(input("ingresa el radio del circulo: "))
 area = 3.1416 * radio
 print ("la circunferencia es: ", area)
@@ -78,3 +80,45 @@ int_decimal = int_anual / 100
 cap_obtenido = cant_invertida * (1 + int_decimal) ** anios
 
 print ("El capital obtenido es: ", cap_obtenido)
+
+## Ejercicio 13
+## Ejercicio 14
+print('Una ambiciosa' + "introducción " + "a Python")
+## Ejercicio 15
+sociedad = "aiPython P1"
+## a) 
+print(sociedad)
+## b)
+print(len(sociedad))
+## c)
+print(sociedad.upper())
+## d)
+print(sociedad.lower())
+## Ejercicio 16
+texto = "sometimes it is the people no one imagines anything of who do the things that no one can imagine."
+print("método capitalize(): "+ texto.capitalize())
+print("método title: " + texto.title())
+print("método swapcase: ", texto.swapcase())
+
+## Ejercicio 17
+nombre_completo = str(input("Ingrese su nombre completo"))
+print (nombre_completo * 3)"""
+## Ejercicio 18
+espacio = " "
+print(F"    {espacio}*")
+print(F"   * {espacio} *")
+print(F"  *  {espacio}  *")
+print(F" *   {espacio}   *")
+print(F"***  {espacio}  ***")
+print(F"  *  {espacio}  *")
+print(F"  *  {espacio}  *")
+print(F"  {espacio}*****")
+
+
+
+## Ejercicio 19
+print ("\n","    *","\n","   * *","\n","  *   *","\n"," *     *","\n","***   ***","\n","  *   *","\n","  *   *","\n","  *****", "\n")
+
+## Ejercicio 20
+print ("\n","    *","\n","   * *","\n","  *   *","\n"," *     *","\n","***   ***","\n","  *   *","\n","  *   *","\n","  *****")
+print ("\n","    *","\n","   * *","\n","  *   *","\n"," *     *","\n","***   ***","\n","  *   *","\n","  *   *","\n","  *****")
