@@ -1,6 +1,6 @@
 from sympy import false
 
-
+## Ejercicio 1
 print ("Las máquinas me sorprenden con mucha frecuencia")
 print ()
 print ("tus propios mensajes")
@@ -23,6 +23,7 @@ print("***   ***")
 print("  *   *")
 print("  *   *")
 print("  *****")
+## Ejercicio 3
 nombre = "Valeria"
 apellido = "Centurión"
 edad = 21
@@ -31,10 +32,12 @@ num_vuelo = 2345
 temp_ambiente = 18
 end_game = "end"
 par = false
-"""nom = str(input("Ingrese su nombre: "))
+## Ejercicio 5
+nom = str(input("Ingrese su nombre: "))
 apell = str(input("Ingrese su apellido: "))
 ed = int(input("Ingrese su edad"))
 print("Nombre ", nom, " apellido ", apell, " edad: ", ed)
+## Ejercicio 6
 num1 = int(input("ingrese un numero: "))
 num2 = int(input("ingrese otro numero: "))
 print("suma ", num1 + num2)
@@ -49,7 +52,7 @@ print("resta ", num1 - num2)
 print("producto ", num1*num2)
 print("potencia ", num1**num2)
 print("resto ", num1%num2)
-
+## Ejercicio 8
 base = float(input("Ingrese la base del rectángulo"))
 altura = float(input("Ingrese la altura del rectángulo"))
 print("área del rectángulo: ", base * altura)
@@ -59,20 +62,22 @@ radio = float(input("ingresa el radio del circulo: "))
 area = 3.1416 * radio
 print ("la circunferencia es: ", area)
 
+## Ejercicio 9
 peso = float(input("ingrese su peso(kg)"))
 estatura = float(input("ingrese su estatura(en metros)"))
 imc = peso / (estatura**2)
 print ("Tu indice de masa corporal es: <", imc, ">")
 
+## Ejercicio 10
 grados = int(input("Ingrese un numero (grados celsius)"))
 gradosFar = (1.8 * grados) + 32
 print ("Los grados celsius: ", grados, " fueron convertidos a Fahrenheit: ", gradosFar)
-
+## Ejercicio 11
 h_trabajadas = float(input("Ingrese el número de horas trabajadas"))
 costo_hora = float(input("Ingrese el costo por hora"))
 print("El sueldo correspondiente es: ", h_trabajadas * costo_hora)
 
-
+## Ejercicio 12
 cant_invertida = float(input("Ingrese la cantidad a invertir"))
 int_anual = float(input("Ingresar interés anual"))
 anios = int(input("Ingrese el número de años: "))
@@ -102,7 +107,7 @@ print("método swapcase: ", texto.swapcase())
 
 ## Ejercicio 17
 nombre_completo = str(input("Ingrese su nombre completo"))
-print (nombre_completo * 3)"""
+print (nombre_completo * 3)
 ## Ejercicio 18
 espacio = " "
 print(F"    {espacio}*")
@@ -133,6 +138,18 @@ pal = palabra.replace("a","😃")
 print(pal)
 
 ## Ejercicio 22 Consultar
+oracion = "El razonamiento matemático puede considerarse más bien esquemáticamente como el ejercicio de una combinación de dos instalaciones, que podemos llamar la intuición y el ingenio"
+dos_primeras_palabras = oracion[0:15]
+print(dos_primeras_palabras)
+
 ## Ejercicio 23
 frase1  = " La ciencia es una ecuación diferencial. La religión es una condición de frontera. "
 print(frase1.strip())
+
+## Ejercicio 24
+frase = "El razonamiento matemático puede considerarse más bien esquemáticamente \n como el ejercicio de una combinación de dos instalaciones, que podemos llamar la intuición y el ingenio"
+print(frase)
+
+##Ejercicio 25
+separados = "Nombre \t Edad \t Pais \t Ciudad \t\n Alexa \t 250 \t USA \t CapeCod"
+print (separados)
