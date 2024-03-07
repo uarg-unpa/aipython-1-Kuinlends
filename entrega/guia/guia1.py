@@ -87,6 +87,19 @@ cap_obtenido = cant_invertida * (1 + int_decimal) ** anios
 print ("El capital obtenido es: ", cap_obtenido)
 
 ## Ejercicio 13
+producto1 = int(input("Ingrese el precio del producto1: "))
+producto2 = int(input("Ingrese el precio del producto2: "))
+producto3 = int(input("Ingrese el precio del producto3: "))
+producto4 = int(input("Ingrese el precio del producto4: "))
+producto5 = int(input("Ingrese el precio del producto5: "))
+producto6 = int(input("Ingrese el precio del producto6: "))
+producto7 = int(input("Ingrese el precio del producto7: "))
+producto8 = int(input("Ingrese el precio del producto8: "))
+producto9 = int(input("Ingrese el precio del producto9: "))
+producto10 = int(input("Ingrese el precio del producto10: "))
+sumaPrecios = (producto1 + producto2 + producto3 + producto4 + producto5 + producto6 + producto7 + producto8 + producto9 + producto10)
+promedio = sumaPrecios / 10
+print ("El promedio de precios de 10 productos es: ", promedio)
 ## Ejercicio 14
 print('Una ambiciosa' + "introducción " + "a Python")
 ## Ejercicio 15
