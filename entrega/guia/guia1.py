@@ -120,5 +120,19 @@ print(F"  {espacio}*****")
 print ("\n","    *","\n","   * *","\n","  *   *","\n"," *     *","\n","***   ***","\n","  *   *","\n","  *   *","\n","  *****", "\n")
 
 ## Ejercicio 20
-print ("\n","    *","\n","   * *","\n","  *   *","\n"," *     *","\n","***   ***","\n","  *   *","\n","  *   *","\n","  *****")
-print ("\n","    *","\n","   * *","\n","  *   *","\n"," *     *","\n","***   ***","\n","  *   *","\n","  *   *","\n","  *****")
+arbol1 = ("        *\n       * *\n      *   *\n     *     *\n    ***   ***\n      *   *\n      *   *\n      ***** \n")
+arbol2 = ("          *\n         * *\n        *   *\n       *     *\n      ***   ***\n        *   *\n        *   *\n        *****")
+
+arboles = arbol1 + "" + arbol2
+print(arboles)
+ 
+ ##Ejercicio 21
+
+palabra = str(input("Ingrese una palabra: "))
+pal = palabra.replace("a","😃")
+print(pal)
+
+## Ejercicio 22 Consultar
+## Ejercicio 23
+frase1  = " La ciencia es una ecuación diferencial. La religión es una condición de frontera. "
+print(frase1.strip())
