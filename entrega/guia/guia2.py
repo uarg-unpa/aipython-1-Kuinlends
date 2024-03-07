@@ -76,3 +76,18 @@ elif (puntuacion >= 50) and (puntuacion <= 59):
 else:
     print("Clasificacion F")
 
+# Ejercicio 8
+    edad_cliente = int(input("Cliente: Ingrese su edad... "))
+    if (edad_cliente < 4):
+        print("Menor de 4 años de edad: entra gratis.")
+    elif (edad_cliente >= 4) and (edad_cliente <= 18):
+        print(" Usted debe pagar $5")
+    else:
+        print("Usted debe pagar 10$")
+# Ejercicio 9
+edad_usuario = int(input("Ingrese su edad porfavor: "))
+ingr_mensual = int(input("Ingrese sus ingresos mensuales: "))
+if (edad_usuario >= 18) and (edad_usuario >= 100000):
+    print("Usted debe pagar impuestos.")
+else:
+    print("Usted se encuentra excento a pagar impuestos.")
