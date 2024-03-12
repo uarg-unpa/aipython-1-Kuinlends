@@ -42,3 +42,4 @@ def vot(edad):
     
 edad = int(input("ingrese su edad: "))
 print(vot(edad))
+

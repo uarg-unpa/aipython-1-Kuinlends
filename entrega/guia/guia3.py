@@ -45,4 +45,35 @@ for i in range (0,7):
 print(" ")
 
 # Ejercicio 6
+numeral = "#"
+for i in range(0,8):
+    for x in range(0,7):
+        numeral = numeral + "#"
+    print(numeral)
+    numeral = "#"
 
+# Ejercicio 7
+numero = int(input("Ingrese un número: "))
+nombre = str(input("Ingrese su nombre: "))
+
+for i in range(0,numero):
+    print(nombre)
+
+# Ejercicio 8
+numero = int(input("Ingrese un numero mayor a 3: "))
+while(numero <= 3):
+    print("Debe ingresar un numero mayor a 3")
+    numero = int(input("Ingrese un numero mayor a 3: "))
+print(F"Números impares que le preceden a {numero}")
+for x in range(0,numero):
+    if(x % 2 != 0):
+        print(x, end=" ")
+
+# Ejercicio 9
+print(" ")
+for i in range(0,11):
+    multiplicacion = i * i
+    print(F"{i} x {i} = {multiplicacion}")
+
+# Ejercicio 10
+    
