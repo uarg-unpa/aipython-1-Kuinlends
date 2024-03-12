@@ -35,8 +35,13 @@ else:
 for i in range(menor + 1, mayor):
     print(i,end=", ")
 print("")
+
 # Ejercicio 5
 numeral = "#"
 for i in range (0,7):
     print(numeral)
-    numeral = numeral + numeral
+    numeral = numeral + "#"
+print(" ")
+
+# Ejercicio 6
+
