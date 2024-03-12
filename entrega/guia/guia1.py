@@ -1,5 +1,3 @@
-from sympy import false
-
 ## Ejercicio 1
 print ("Las máquinas me sorprenden con mucha frecuencia")
 print ()
@@ -31,7 +29,7 @@ altura = 1.5
 num_vuelo = 2345
 temp_ambiente = 18
 end_game = "end"
-par = false
+par = False
 ## Ejercicio 5
 nom = str(input("Ingrese su nombre: "))
 apell = str(input("Ingrese su apellido: "))

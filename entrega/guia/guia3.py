@@ -76,4 +76,28 @@ for i in range(0,11):
     print(F"{i} x {i} = {multiplicacion}")
 
 # Ejercicio 10
-    
+for i in range(0,7):
+    for x in range(0,7):
+        print(i,x)
+
+# Ejercicio 11
+numero_natural = int(input("Ingrese un numero natural: "))
+while(numero < 1):
+    print("Error, debe ser un numero natural")
+    numero_natural = int(input("Ingrese un numero natural: "))
+
+# Ejericio 12
+suma = 0
+for x in range (0,numero_natural):
+    suma = suma + (x+1)
+print (suma)
+
+# Ejercicio 13
+numero_n = int(input("Ingrese un numero natural: "))
+suma_n = 0
+for i in range (0,numero_n):
+    if(i % 2 == 0):
+        suma_n = suma_n + i
+print (suma_n)
+
+#Ejercicio 14

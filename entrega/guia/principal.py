@@ -43,3 +43,8 @@ def vot(edad):
 edad = int(input("ingrese su edad: "))
 print(vot(edad))
 
+def mensaje():
+    print("Hola - AI python")
+
+def suma(num1,num2):
+    return num1 + num2
