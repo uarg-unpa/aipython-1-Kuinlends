@@ -37,6 +37,7 @@ for i in range(menor + 1, mayor):
 print("")
 
 # Ejercicio 5
+
 numeral = "#"
 for i in range (0,7):
     print(numeral)
