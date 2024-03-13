@@ -128,3 +128,14 @@ for i in range(menor, mayor):
 print("")
 
 # Ejercicio 15
+numero_entero = int(input("Ingrese un número entero: "))
+if((numero_entero == 1) or (numero_entero == 0)):
+    print(F"El numero seleccionado {numero_entero} NO es primo.")
+elif (numero_entero == 2):
+    print(F"El numero seleccionado {numero_entero}es primo.")
+elif (numero_entero > 2):
+    for i in range (2,numero_entero):
+        if (numero_entero % i == 0):
+            print(F"El numero seleccionado {numero_entero} NO es primo.")
+        elif((numero_entero % i != 0) and (i == (numero_entero-1))):
+            print(F"El numero seleccionado {numero_entero} es primo.")
