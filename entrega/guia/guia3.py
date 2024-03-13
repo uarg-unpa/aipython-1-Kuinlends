@@ -81,12 +81,21 @@ for i in range(0,7):
         print(i,x)
 
 # Ejercicio 11
+limite = int(input("Ingrese un numero "))
+i = 1
+texto = ""
+while (i <= limite):
+    print(texto,1, sep="")
+    x = (str)(i + 2)
+    i = i + 2
+    texto = (str)(x) + " " + texto
+    x = i
+
+# Ejercicio 12
 numero_natural = int(input("Ingrese un numero natural: "))
 while(numero < 1):
     print("Error, debe ser un numero natural")
     numero_natural = int(input("Ingrese un numero natural: "))
-
-# Ejericio 12
 suma = 0
 for x in range (0,numero_natural):
     suma = suma + (x+1)
@@ -101,3 +110,21 @@ for i in range (0,numero_n):
 print (suma_n)
 
 #Ejercicio 14
+num1 = int(input("Ingrese un numero "))
+num2 = int(input("Ingrese otro numero "))
+
+# Fase comparativa (buscar el mayor)
+if (num1 > num2):
+    mayor = num1
+    menor = num2
+else:
+    mayor = num2
+    menor = num1
+
+for i in range(menor, mayor):
+    if(i>menor and i < mayor):
+        if(i % 2 == 0):
+            print(i, end=" ")
+print("")
+
+# Ejercicio 15
