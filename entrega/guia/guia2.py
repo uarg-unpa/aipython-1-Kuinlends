@@ -1,4 +1,5 @@
 ## Ejercicio 1
+
 edad = int(input("Ingrese su edad: "))
 if edad > 18:
     print("Tiene edad suficiente para conducir")
@@ -39,10 +40,6 @@ else:
     print("es impar")
 ## Ejercicio 6
 numm = int(input("Ingrese un número del 1 al 7: "))
-while (numm < 1) or (numm >7):
-    print("El número ingresado no corresponde al rango definido. (1-7)")
-    numm = int(input("Ingrese un número del 1 al 7: "))
-
 match numm:
     case 1:
         print("Lunes")
@@ -58,6 +55,8 @@ match numm:
         print("Sábado")
     case 7:
         print("Domingo")
+    case _: 
+        print ("Opción no válida")
 
 # Ejercicio 7
 puntuacion = int(input("Ingrese la puntuacion del estudiante: "))
