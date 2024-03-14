@@ -42,3 +42,7 @@ def elMaximo(num1,num2,num3):
         print("Todos los numeros ingresados son iguales")
 
 # Ejercicio 8
+def invertir(palabra):
+    long = palabra.len()
+    for i in range (0,long):
+        
