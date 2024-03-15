@@ -12,8 +12,6 @@ print(10, 3.14, "Cadena", True)
 print ("Su edad es: ", edad) ## solucion 1
 print ("Su edad es: " + str(edad)) ## solucion 2
 print (F"Su edad es: {edad}") ## solucion 3 """
-
-
 num1 = 4
 num2 = 6
 print(f"{num1} + {num2} = {num1 + num2}") ##Operación dentro del String
@@ -25,7 +23,6 @@ print (texto.upper())
 print (texto.lower())
 print (texto.replace(" ", "😃"))
 print (len(texto))
-
 def votante ():
     edad = int(input("ingrese su edad: "))
     if( edad >= 18):
@@ -48,3 +45,18 @@ def mensaje():
 
 def suma(num1,num2):
     return num1 + num2
+#Listas
+# creacion lista vacia
+nombres = []
+#valores iniciales
+nombres=['Franco','Fernanda','Alejandro','Fabiana']
+#mostrar lista
+print(nombres)
+#iterar sobre la lista usando indices
+for i in range(len(nombres)):
+    print(nombres[i])
+#accedemos a los elementos
+#accedemos al primer elemento
+    primer_elemento=nombres[0]
+    print(F"El primer elemento es: {primer_elemento}")
+    
