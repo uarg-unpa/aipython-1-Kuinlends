@@ -59,4 +59,27 @@ for i in range(len(nombres)):
 #accedemos al primer elemento
     primer_elemento=nombres[0]
     print(F"El primer elemento es: {primer_elemento}")
-    
+#Creacion de listas usando el método
+#nombres = list()
+    #crear una lista con valores iniciales
+nombres = list(['Gaston','Eva','Lautaro'])
+print(nombres)
+#metodos, append, permite agregar un elemento al final de la lista
+nombres.append('Sandra')
+print(nombres)
+#insert, permite agregar un elemento en el indice indicado
+nombres.insert(0,'Victoria')
+print(nombres)
+#utilizar el operador in, para recorrer y mostrar cada objeto de la lista
+for nombre in nombres:
+    print(nombre, end=" ")
+print(" ")
+#mutabilidad, modificar algun elemento de la lista
+nombres[4] = 'Lorenza'
+for nombre in nombres:
+    print(nombre, end=" ")
+#funcion id
+    print(id(nombres))
+numeros=[-1,3,2,4]
+#rebanas 
+sub_numeros=numeros[:3]
