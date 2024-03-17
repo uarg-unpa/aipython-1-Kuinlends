@@ -47,5 +47,61 @@ sub_letra = letras[::2]
 print(sub_letra)
 
 # Ejercicio 10
+animales = ['Gato','Perro','Pajaro','Leon']
+inversa = animales[::-1] 
+print(inversa)
 
+# Ejercicio 11
+palabras = ['Amapola','Mate','Buen dia','Chau']
+sub_lista = palabras[1:4]
+print(sub_lista)
 
+# Ejercicio 12
+# a)
+flores= ['rosas', 'orquídea','lirio','tulipan', 'margarita', 'dalia', 'hortensia']
+tres = flores[2:3]
+print(tres)
+
+# b)
+for i in range (1, len(flores),2):
+    print(flores[i])
+
+# c)
+print(flores[::3])  
+
+# Ejercicio 13
+def caracteres(lista):
+    cont = 0
+    vocales = "aeiou"
+    for char in carac:
+        if char in vocales:
+            cont = cont + 1
+    return cont
+carac = ['a','b','c','r','o']
+print(caracteres(carac))
+
+# Ejercicio 14
+def dos_listas(lista1,lista2):
+    lista_nueva = []
+    for i in lista1:
+        if i not in lista_nueva:
+            lista_nueva.append(i)        
+        for x in lista2:
+            if x not in lista_nueva:
+                lista_nueva.append(x)
+    return lista_nueva
+list1 = ['Chau','Hola']
+list2 = ['Pajaro','Gato','Cuatro']
+print(dos_listas(list1,list2))
+
+# Ejercicio 15
+def promedio(lista_numeros):
+    suma = 0
+    cant = 0
+    for numero in lista_numeros:
+        suma = suma + numero
+        cant = cant + 1
+    return suma/cant
+
+numeros = [1,3,5,66,7,89]
+print(promedio(numeros))
