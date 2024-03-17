@@ -1,13 +1,10 @@
 # Ejercicio 1
-from sympy import Max
-
-
 def multiplicacion(num1,num2):
     return num1 * num2
 
 # Ejercicio 2
-"""def multiplicacion():
-    return 1*1"""
+def multiplicacion1(num1=1,num2=1):
+    return num1 * num2
 
 # Ejercicio 3
 def mensaje(nombre):
@@ -78,6 +75,8 @@ def temperaturas(temperatura):
 # Zona de pruebas
 #Ej1
 print(multiplicacion(6,4))
+#Ej2
+print(multiplicacion1())
 #Ej3
 print(mensaje("Valeria"))
 #Ej4

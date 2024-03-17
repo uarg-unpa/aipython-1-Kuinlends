@@ -1,7 +1,4 @@
 #Ejercicio 1
-from numpy import delete
-
-
 elementos = list()
 #Ejercicio 2
 elementos = [1,2,3,4,5,'Helado','Gato']
@@ -24,5 +21,6 @@ print(frutas[0], frutas[tope-1])
 # Ejercicio 6
 datos_personales= ['Valeria',21,1.55,'Soltero','Calle']
 # Ejercicio 7
+companias=['Youtube','Spotify','Instagram']
 
 
